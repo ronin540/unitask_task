@@ -30,6 +30,7 @@ app.use(passport.session());
 
 app.use("/api/users", userRoute);
 app.use(jokeRoute);
+
 app.use(async (req, res, next) => {
   next(createError.NotFound());
 });
