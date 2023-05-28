@@ -25,10 +25,10 @@ The server will start running on http://localhost:3000.
 - User Signup: `POST /api/users/signup`
 - User Login: `POST /api/users/login`
 - View Profile (Restricted): `GET /api/users/me`
-- Get Random Joke: `GET /api/random-joke`
+- Get Random Joke (Restricted): `GET /api/random-joke`
 - User Logout (Restricted): `POST /api/users/logout`
 
-**Note:** The restricted endpoints (`/api/users/me` and `/api/users/logout`) require authentication. Include the user's session ID in Cookie in the request headers.
+**Note:** The restricted endpoints (`/api/users/me`, `/api/users/logout` and `/api/random-joke`) require authentication. Include the user's session ID in Cookie in the request headers.
 
 Additionally, please note that all the necessary API information, including endpoints, request methods, and request/response details, can be found in the api-collection.json file provided. Make sure to import the collection file into Thunder Client to access and interact with the APIs seamlessly.
 
