@@ -1,0 +1,104 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "unitask_task",
+    "dateExported": "2023-05-28T18:10:58.817Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c35e96aa-b785-4f42-8fc2-9eec7876a317",
+            "colId": "4e14b8b0-cb65-43c3-bed1-001a37df382a",
+            "containerId": "",
+            "name": "/api/users/signup ",
+            "url": "http://localhost:3000/api/users/signup",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-05-28T11:42:37.327Z",
+            "modified": "2023-05-28T18:08:03.893Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"satyam123@gmail.com\",\n  \"password\": \"123456\",\n  \"firstName\" : \"satyam\",\n  \"lastName\" : \"chouhan\",\n  \"mobile\": 9039000310\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "38d66081-9871-493e-9216-d42ad465e993",
+            "colId": "4e14b8b0-cb65-43c3-bed1-001a37df382a",
+            "containerId": "",
+            "name": "/api/users/login",
+            "url": "http://localhost:3000/api/users/login",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-05-28T14:00:54.575Z",
+            "modified": "2023-05-28T18:09:32.435Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"satyam123@gmail.com\",\n  \"password\": \"123456\"\n \n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7b57a787-241d-468d-9f81-b2dcea9fa177",
+            "colId": "4e14b8b0-cb65-43c3-bed1-001a37df382a",
+            "containerId": "",
+            "name": "/api/users/me",
+            "url": "http://localhost:3000/api/users/me",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-05-28T15:25:26.451Z",
+            "modified": "2023-05-28T18:10:05.344Z",
+            "headers": [
+                {
+                    "name": "Cookie",
+                    "value": "connect.sid=s%3AOiFPh2Dz7Y-9n3ZzmJBHAWBbZuzDHlBs.MPQqB%2FXR7PfQZ6N9JDv9WE3h0L21XJ79asw1HctNGgw; Path=/; HttpOnly"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "82c0c532-2805-47e1-9c7c-a5717badbc99",
+            "colId": "4e14b8b0-cb65-43c3-bed1-001a37df382a",
+            "containerId": "",
+            "name": "/api/users/logout",
+            "url": "http://localhost:3000/api/users/logout",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-05-28T16:29:51.633Z",
+            "modified": "2023-05-28T18:10:46.170Z",
+            "headers": [
+                {
+                    "name": "Cookie",
+                    "value": "http://localhost:3000/api/random-joke"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "678bcc6a-e74d-4612-a724-48830fc2e457",
+            "colId": "4e14b8b0-cb65-43c3-bed1-001a37df382a",
+            "containerId": "",
+            "name": "/api/random-joke",
+            "url": "http://localhost:3000/api/random-joke",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2023-05-28T17:00:23.594Z",
+            "modified": "2023-05-28T18:10:19.261Z",
+            "headers": [
+                {
+                    "name": "Cookie",
+                    "value": "connect.sid=s%3AOiFPh2Dz7Y-9n3ZzmJBHAWBbZuzDHlBs.MPQqB%2FXR7PfQZ6N9JDv9WE3h0L21XJ79asw1HctNGgw; Path=/; HttpOnly"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

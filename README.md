@@ -30,6 +30,8 @@ The server will start running on http://localhost:3000.
 
 **Note:** The restricted endpoints (`/api/users/me` and `/api/users/logout`) require authentication. Include the user's session ID in Cookie in the request headers.
 
+Additionally, please note that all the necessary API information, including endpoints, request methods, and request/response details, can be found in the api-collection.json file provided. Make sure to import the collection file into Thunder Client to access and interact with the APIs seamlessly.
+
 ## Error Handling
 
 The project includes a custom error handling middleware that catches and logs any errors that occur during the request processing. Internal server errors are returned with a status code of 500 and an error message.

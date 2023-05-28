@@ -2,7 +2,7 @@ const { DataTypes } = require("sequelize");
 const bcrypt = require("bcrypt");
 const sequelize = require("../config/db");
 
-const User = sequelize.define("User", {
+const User = sequelize.define("user", {
   id: {
     type: DataTypes.INTEGER,
     autoIncrement: true,
@@ -24,7 +24,7 @@ const User = sequelize.define("User", {
     type: DataTypes.STRING,
   },
   mobile: {
-    type: DataTypes.INTEGER,
+    type: DataTypes.BIGINT(10),
   },
 });
 
