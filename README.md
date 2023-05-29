@@ -24,7 +24,7 @@ The server will start running on http://localhost:3000.
 
 - User Signup: `POST /api/users/signup`
 - User Login: `POST /api/users/login`
-- View Profile (Restricted): `GET /api/users/me`
+- View Profile (Restricted): `POST /api/users/me`
 - Get Random Joke (Restricted): `GET /api/random-joke`
 - User Logout (Restricted): `POST /api/users/logout`
 
